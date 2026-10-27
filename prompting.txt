@@ -1,0 +1,44 @@
+Bertindaklah sebagai Senior Full-Stack Web3 Developer. Saya sedang membuat prototipe aplikasi web (dApp) menggunakan **Next.js (App Router), React, dan Tailwind CSS** untuk tugas UTS praktikum berjudul "Pengembangan Sistem Verifikasi Keaslian Produk Lokal Menggunakan Pengetahuan Lokal, AI, dan Blockchain". Studi kasus saya adalah komoditas **Garam Lokal**.
+
+Tolong buatkan kode lengkap aplikasi Next.js (bisa dipusatkan di `app/page.tsx` atau dipecah menjadi beberapa komponen yang rapi) beserta panduan instalasi library yang dibutuhkan (seperti `lucide-react` untuk ikon dan `qrcode.react` untuk QR Code).
+
+Pastikan aplikasi memiliki fitur-fitur berikut sesuai ketentuan UTS:
+
+1. Integrasi Phantom Wallet (Solana Web3):
+   - Buat fitur "Connect Phantom Wallet" menggunakan provider `window.solana` (tanpa konfigurasi adapter yang terlalu rumit agar mudah dijalankan di localhost).
+   - Tampilkan status koneksi dan alamat wallet (Public Key) yang sedang login.
+   - Buat fitur "Role Switcher" (Simulasi Peran) di bagian atas halaman agar mudah didemokan saat presentasi, yaitu:
+     a. **Petambak Garam (Produsen)**
+     b. **Verifikator Komunitas (Ketua Kelompok Petambak / Ahli)**
+     c. **Konsumen / Publik**
+
+2. Tab 1: Dashboard Petambak (Input Batch & 5 Indikator Pengetahuan Lokal):
+   - Form identitas batch: ID Batch, Nama & Lokasi Tambak (misal: Tambak Garam Amed Bali / Madura), Tanggal Panen, dan Metode Produksi (Kristalisasi Tradisional / Meja Geomembran).
+   - Form input 5 Indikator Verifikasi (gabungan observasi langsung, alat ukur, dan dokumen):
+     1) Warna Kristal (Observasi langsung: Putih bersih / Putih tulang alami).
+     2) Tekstur & Ukuran Butiran (Observasi langsung: Kasar/Krosok / Halus merata).
+     3) Kadar Air / Kelembapan (Alat ukur Moisture Meter dalam %).
+     4) Tingkat Salinitas / NaCl (Alat ukur Salinometer/Refraktometer dalam %).
+     5) Klaim Dokumen / Sertifikat Asal Lahan (Input nomor surat kelompok tani/IG).
+   - Input upload foto kristal garam untuk dianalisis oleh AI.
+
+3. Simulasi Analisis AI (Deteksi Indikasi Awal):
+   - Saat Petambak menekan tombol "Analisis dengan AI & Ajukan Verifikasi", tampilkan animasi loading analisis citra & parameter ukur.
+   - Hasil AI memberikan skor kecocokan dan status "Indikasi Awal: Sesuai Standar Garam Lokal" atau "Indikasi Pencampuran Garam Rafinasi".
+   - Tambahkan disclaimer sesuai etika sistem: *"Hasil AI hanya merupakan indikasi awal dan memerlukan pengesahan komunitas sebelum dicatat ke blockchain."*
+
+4. Tab 2: Dashboard Verifikator Komunitas (Validasi Data Sebelum Masuk Blockchain):
+   - Menampilkan daftar batch garam yang berstatus "Menunggu Pengesahan Komunitas" (sebagai mekanisme pencegah data palsu masuk ke blockchain).
+   - Verifikator dapat meninjau data inputan petambak dan hasil AI, serta memiliki opsi untuk:
+     a. **"Sah & Catat ke Blockchain"**: Memicu pop-up tanda tangan digital (`window.solana.signMessage`) di ekstensi Phantom Wallet. Setelah ditandatangani, status berubah menjadi "Terverifikasi di Blockchain" lengkap dengan simulasi *Solana Transaction Signature (TxHash)*, *Timestamp*, dan *Wallet Pengesah*.
+     b. **"Sengketa / Tolak Data"**: Untuk menangani perbedaan pendapat atau dugaan manipulasi data.
+
+5. Tab 3: Halaman Pelacakan Konsumen & QR Code (Traceability):
+   - Fitur pencarian ID Batch dan tampilan kartu sertifikat digital produk Garam Lokal.
+   - Tampilkan **QR Code** interaktif untuk setiap batch yang sudah terverifikasi.
+   - Tampilkan detail lengkap: Asal Tambak, Metode Produksi, Hasil Uji 5 Indikator, Hasil Analisis AI, Bukti Blockchain (TxHash, Wallet Petambak, Wallet Verifikator Komunitas), dan Riwayat Distribusi (Dari Tambak -> Gudang Koperasi -> Distributor -> Konsumen).
+
+6. Data Dummy Siap Demo:
+   - Sertakan 2-3 data dummy awal di dalam `useState` (misalnya 1 batch "Garam Amed Bali" yang sudah terverifikasi blockchain, dan 1 batch "Garam Krosok Madura" yang masih menunggu pengesahan komunitas) agar website langsung terlihat hidup saat pertama kali dibuka.
+
+Tolong tuliskan instruksi terminal untuk inisialisasi proyek Next.js dan berikan kode lengkap yang bebas error.

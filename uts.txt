@@ -1,0 +1,118 @@
+TUGAS UTS PRAKTIKUM
+Pengembangan Sistem Verifikasi Keaslian Produk Lokal Menggunakan 
+Pengetahuan Lokal, Artificial Intelligence, dan Blockchain
+1. Latar Belakang
+Banyak produk lokal memiliki nilai ekonomi tinggi, tetapi menghadapi risiko pemalsuan, pencampuran bahan, 
+manipulasi asal-usul, dan ketidaksesuaian mutu. Konsumen sering kesulitan membedakan produk asli dengan 
+produk yang dipalsukan, sedangkan produsen kecil yang jujur ikut menanggung dampaknya.
+Masyarakat lokal sebenarnya memiliki pengetahuan untuk menilai keaslian dan mutu produk berdasarkan 
+pengalaman, seperti warna, aroma, tekstur, bentuk, cara pengolahan, dan asal-usul produk. Pengetahuan 
+tersebut perlu didokumentasikan dan diterjemahkan menjadi aturan verifikasi yang dapat digunakan dalam 
+sistem digital.
+Mahasiswa diminta mengembangkan rancangan sistem yang mengintegrasikan pengetahuan lokal, AI, dan 
+blockchain untuk membantu mendeteksi indikasi pemalsuan serta meningkatkan transparansi dan kepercayaan 
+konsumen.
+2. Tujuan Tugas
+• Mengidentifikasi permasalahan keaslian dan mutu produk lokal.
+• Mendokumentasikan pengetahuan lokal dari produsen, pedagang, pengrajin, petani, atau tokoh komunitas.
+• Menerjemahkan pengetahuan lokal menjadi indikator dan aturan verifikasi.
+• Merancang pemanfaatan AI untuk membantu mendeteksi indikasi ketidakaslian atau ketidaksesuaian mutu.
+• Merancang pencatatan asal-usul, hasil pemeriksaan, dan pengesahan komunitas menggunakan blockchain.
+• Membuat prototipe atau demonstrasi sistem verifikasi yang dapat dipahami oleh masyarakat.
+3. Pilihan Studi Kasus
+Setiap kelompok bebas memilih satu komoditas. Pilihan berikut merupakan contoh, bukan daftar yang membatasi 
+kreativitas mahasiswa.
+Kelompok juga boleh mengusulkan komoditas lain sepanjang permasalahannya jelas, pengetahuan lokal dapat 
+digali, dan mekanisme verifikasinya dapat dirancang.
+4. Ketentuan Pengembangan Sistem
+A. Pengetahuan lokal
+Identifikasi minimal lima indikator yang biasa digunakan komunitas untuk mengenali keaslian atau mutu produk. 
+Sumbernya dapat berasal dari wawancara, observasi, dokumentasi, atau literatur yang dapat 
+dipertanggungjawabkan.
+B. Aturan verifikasi
+Terjemahkan pengetahuan lokal menjadi aturan yang dapat diperiksa. Bedakan antara indikator yang dapat 
+diamati secara langsung, indikator yang memerlukan alat ukur, dan klaim yang harus dibuktikan melalui 
+dokumen atau pengujian laboratorium.
+C. Blockchain
+Rancang pencatatan identitas batch, asal-usul, waktu produksi, hasil pemeriksaan, pihak yang mengesahkan, dan 
+riwayat distribusi. Jelaskan siapa yang berwenang memasukkan dan mengesahkan data. Blockchain menjaga 
+integritas catatan setelah dicatat, tetapi tidak otomatis menjamin kebenaran data awal. Karena itu, kelompok 
+harus menjelaskan cara memeriksa data sebelum dimasukkan ke blockchain.
+Tugas Proyek Mahasiswa | Verifikasi Produk Lokal dengan AI dan Blockchain | Halaman 1
+D. Verifikasi oleh komunitas
+Rancang mekanisme pemeriksaan dan pengesahan oleh pihak yang kompeten, seperti petani, perajin, pedagang 
+berpengalaman, ketua kelompok produsen, atau ahli terkait. Tetapkan prosedur untuk menangani perbedaan 
+pendapat dan dugaan manipulasi.
+5. Luaran Tugas
+• Laporan proyek yang menjelaskan masalah, studi kasus, dan solusi.
+• Tabel pengetahuan lokal, indikator, metode pemeriksaan, dan pihak yang mengesahkan.
+• Diagram arsitektur AI dan blockchain.
+• Rancangan aturan verifikasi atau smart contract.
+• Prototipe sederhana, simulasi, atau demonstrasi alur verifikasi.
+• Contoh tampilan hasil pemeriksaan dan kode QR untuk menelusuri identitas produk.
+• Video demonstrasi atau presentasi hasil proyek.
+Prototipe tidak harus menggunakan blockchain publik atau AI yang telah dilatih dengan dataset besar. Simulasi 
+diperbolehkan, dengan syarat alur kerja, sumber data, dan batasan sistem dijelaskan secara transparan.
+6. Format Tabel Analisis Wajib
+Setiap kelompok wajib mengisi minimal lima baris berdasarkan komoditas yang dipilih.
+7. Tahapan Pelaksanaan
+• Pemilihan komoditas dan identifikasi masalah.
+• Pengumpulan pengetahuan lokal melalui sumber yang dapat dipertanggungjawabkan.
+• Perumusan indikator dan aturan verifikasi bersama komunitas jika memungkinkan.
+• Perancangan blockchain, dan alur pengesahan.
+• Pembuatan prototipe atau simulasi.
+• Pengujian menggunakan contoh data yang tersedia.
+• Presentasi, evaluasi, dan penyusunan laporan akhir.
+8. Rubrik Penilaian
+9. Prinsip Etika dan Validitas
+Mahasiswa wajib meminta persetujuan sebelum melakukan wawancara atau mendokumentasikan pengetahuan 
+komunitas. Pengetahuan yang bersifat rahasia atau dibatasi oleh komunitas tidak boleh dipublikasikan tanpa izin. 
+Kontribusi dan hak komunitas harus diakui.
+Mahasiswa juga wajib membedakan indikasi awal, pengesahan komunitas, dan bukti ilmiah yang memerlukan 
+pengujian lebih lanjut. Sistem tidak boleh menyatakan suatu produk palsu hanya berdasarkan satu ciri visual 
+atau pendapat satu orang.
+10. Pertanyaan Utama untuk Presentasi
+• Apa masalah pemalsuan atau ketidakjelasan mutu yang ingin diselesaikan?
+• Siapa pemilik pengetahuan lokal yang dilibatkan?
+• Bagaimana pengetahuan lokal diterjemahkan menjadi aturan yang dapat diperiksa?
+• Apa peran blockchain yang tidak dapat digantikan hanya dengan pencatatan biasa?
+• Mengapa blockchain diperlukan dan data apa yang dicatat?
+• Bagaimana sistem mendeteksi data palsu sebelum masuk ke blockchain?
+• Apa bukti bahwa rancangan sistem bekerja dan apa keterbatasannya?
+Tugas Proyek Mahasiswa | Verifikasi Produk Lokal dengan AI dan Blockchain | Halaman 2
+Tugas Proyek Mahasiswa | Verifikasi Produk Lokal dengan AI dan Blockchain | Halaman 3
+Prinsip Utama Proyek
+Pengetahuan lokal menjadi dasar aturan verifikasi smart contract membantu menganalisis indikasi, komunitas 
+berperan dalam pengesahan, dan blockchain menjaga integritas serta ketertelusuran catatan.
+Rekomendasi Pelaksanaan
+Agar tugas tidak berhenti pada pembuatan aplikasi, mahasiswa perlu menunjukkan hubungan antara 
+pengetahuan komunitas, bukti pemeriksaan, dan keputusan verifikasi. Pada studi kasus gula kelapa, misalnya, 
+foto produk yang dianalisis AI hanya menjadi salah satu sumber informasi. Sistem juga perlu mencatat asal 
+bahan, identitas produsen, hasil pengukuran yang relevan, dan pengesahan pihak yang berwenang.
+Dengan demikian, mahasiswa dapat memilih komoditas berbeda, tetapi tetap mengerjakan kerangka penelitian 
+yang sama. Hasil antarkelompok dapat dibandingkan dari segi metode, validitas aturan, dan kemampuan 
+mendeteksi manipulasi data.
+Format yang disarankan: kelompok beranggotakan 2 mahasiswa, dengan satu komoditas utama per 
+kelompok. Utamakan komoditas yang memiliki calon narasumber nyata agar pengetahuan lokal tidak sekadar 
+diasumsikan oleh mahasiswa.
+No. Komoditas Fokus verifikasi
+1 Beras lokal Varietas, bentuk bulir, aroma, asal sawah, dan indikasi pencampuran
+2 Gula kelapa Warna, aroma, tekstur, proses produksi, dan indikasi pencampuran
+3 Madu Asal koloni lebah, waktu panen, kematangan, dan indikasi pencampuran
+4 Kopi Asal kebun, tingkat kematangan buah saat dipetik, proses pascapanen, dan identitas produk
+5 Garam lokal Asal tambak, metode produksi, warna, tekstur, dan karakteristik mutu
+6 Minyak atsiri Asal tanaman, proses penyulingan, aroma, dan profil mutu
+7 Batik Asal pengrajin, teknik pembuatan, pola, dan identitas produk
+8 Kerajinan tradisional Asal bahan, teknik produksi, ciri khas, dan identitas pembuat
+9 Produk lokal lainnya Disesuaikan dengan potensi daerah dan ketersediaan mitra komunitas
+Pengetahuan lokal Indikator verifikasi Metode pemeriksaan Dukungan AI Bukti yang dicatat di
+blockchain
+Diisi mahasiswa Diisi mahasiswa Diisi mahasiswa Diisi mahasiswa Diisi mahasiswa
+Komponen penilaian Bobot
+Ketepatan identifikasi masalah dan studi kasus 15%
+Kedalaman dokumentasi pengetahuan lokal 20%
+Kualitas aturan verifikasi 20%
+Ketepatan integrasi AI dan blockchain 20%
+Prototipe dan pengujian 15%
+Laporan, etika, dan presentasi 10%
+TOTAL 100%
